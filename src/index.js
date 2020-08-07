@@ -16,4 +16,5 @@ function addtask(t) {
     li.appendChild(document.createTextNode(taskInput.value));
     taskInput.value = '';
   }
+  t.preventDefault();
 }
