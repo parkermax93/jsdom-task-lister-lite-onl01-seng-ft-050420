@@ -1,6 +1,6 @@
 const form = document.querySelector('#create-task-form');
-const taskInput
-const 
+const taskList = document.querySelector('#tasks');
+const taskInput = document.querySelector('#new-task-description');
 
 document.addEventListener("DOMContentLoaded", loadEventListeners());
 
@@ -14,4 +14,5 @@ function addtask(t) {
   } else { 
     const li = document.createElement('li');
     li.appendChild(document.createTextNode(taskInput.value));
+  }
 }
