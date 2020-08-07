@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", loadEventListeners());
 
 function loadEventListeners() { 
   form.addEventListener('submit', addTask);
+  taskList.addEventListener('click', removeTask);
 }
 
 function addtask(t) {
