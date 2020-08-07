@@ -14,5 +14,6 @@ function addtask(t) {
   } else { 
     const li = document.createElement('li');
     li.appendChild(document.createTextNode(taskInput.value));
+    taskInput.value = '';
   }
 }
